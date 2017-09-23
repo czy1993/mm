@@ -1,0 +1,5 @@
+<view>
+  <view class='gameContainer'>
+    <view class='colorView' wx:for="{{colorViewDatas}}" style="width:{{item.width}};height:{{item.width}};background:{{item.background}};opacity:{{item.aph}};margin:{{item.space}}rpx 0 0 {{item.space}}rpx;border-radius:{{item.space}}rpx" data-opacity="{{item.aph}}" bindtap="chooseColorView"></view>
+  </view>
+</view>
